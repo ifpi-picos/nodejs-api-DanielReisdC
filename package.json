@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ifpi-picos/nodejs-api-DanielReisdC/issues"
   },
-  "homepage": "https://github.com/ifpi-picos/nodejs-api-DanielReisdC#readme"
+  "homepage": "https://github.com/ifpi-picos/nodejs-api-DanielReisdC#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
