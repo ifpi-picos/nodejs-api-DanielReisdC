@@ -15,4 +15,4 @@ const schema = new mangoose.Schema({
     }
 });
 const postagem = mongoose.model('postagem', schema);
-module.exports = Postagem;
+module.exports = Postagem;Error: Cannot find module '../models/postagem'
