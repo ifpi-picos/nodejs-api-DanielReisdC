@@ -1,7 +1,8 @@
 const express = require('express');
 const routers = require('./routes');
 const conectaMongodb =  require('./config/mongdb');
-const router = express.Router();
+const router = express.Router
+();
 
 const app = express(); 
 app.use('/',routers);

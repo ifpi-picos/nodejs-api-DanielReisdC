@@ -7,7 +7,9 @@ class postagem{
     }
     async create (postagemDT0){
         await new PostagemModel(postagemDT0).save();
-
+    }
+    async update (id,postagemDT0){
+            await new PostagemModel.updateOne({_id: id},postagemDT0);
     }
 }                                                                                                                                                         
 
