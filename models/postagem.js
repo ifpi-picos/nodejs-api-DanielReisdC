@@ -1,5 +1,6 @@
-const mongosse = require('mongoose');
-const schema = new mangoose.Schema({
+const mongoose = require('mongoose');
+
+const schema = new mongoose.Schema({
     titulo: {
         type: String,
     },
